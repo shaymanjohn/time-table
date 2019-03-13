@@ -50,7 +50,6 @@
 		D1B623B31BC459AA006E4B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1B623BC1BC46336006E4B0E /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
 		DCFA4591A3FAEA9EEDA9BE0A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		F0D2A696EE06CB1E9246A693 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +95,6 @@
 				D1B623B01BC459AA006E4B0E /* TimeTableTests */,
 				D1B6239A1BC459AA006E4B0E /* Products */,
 				529E3708C5EB149224BADCBD /* Frameworks */,
-				F0D2A696EE06CB1E9246A693 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
