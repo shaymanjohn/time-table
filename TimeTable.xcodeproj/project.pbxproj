@@ -37,7 +37,6 @@
 		22E3856FBD4CB471266E6112 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5C773FB44C14F5720419ED00 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		5EC346D7ABF9E7F3B57603EF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		6F5F5F4B2239AEFB0031C30D /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = SOURCE_ROOT; };
 		C1AB15FF4C54E350EA36C2D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D1B623991BC459AA006E4B0E /* TimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B6239C1BC459AA006E4B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,14 +88,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6F5F5F4D2239AF340031C30D /* Jenkins */ = {
-			isa = PBXGroup;
-			children = (
-				6F5F5F4B2239AEFB0031C30D /* Jenkinsfile */,
-			);
-			name = Jenkins;
-			sourceTree = "<group>";
-		};
 		D1B623901BC459AA006E4B0E = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +117,6 @@
 				D1B623A51BC459AA006E4B0E /* LaunchScreen.storyboard */,
 				D1B623A81BC459AA006E4B0E /* Info.plist */,
 				D1B623BC1BC46336006E4B0E /* TimeTable.swift */,
-				6F5F5F4D2239AF340031C30D /* Jenkins */,
 			);
 			path = TimeTable;
 			sourceTree = "<group>";
