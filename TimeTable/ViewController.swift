@@ -49,7 +49,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         let val1 = pickerView1.selectedRow(inComponent: 0)
         let val2 = pickerView2.selectedRow(inComponent: 0)
         
-        labelResult.text = "\(timeTable.multiply(val1, b: val2))"
+        labelResult.text = "\(timeTable.multiply(val1, val2: val2))"
     }
     
 }

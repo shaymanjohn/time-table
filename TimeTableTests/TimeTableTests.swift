@@ -25,10 +25,10 @@ class TimeTableTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let timeTable = TimeTable()
-        
+
         for col in 0 ..< 10 {
             for row in 0 ..< 10 {
-                let answer = timeTable.multiply(col, b: row)
+                let answer = timeTable.multiply(col, val2: row)
                 XCTAssert(answer == col * row)
             }
         }
@@ -40,7 +40,7 @@ class TimeTableTests: XCTestCase {
         
         self.measure {
             // Put the code you want to measure the time of here.
-            _ = timeTable.multiply(20000, b: 20000)
+            _ = timeTable.multiply(20000, val2: 20000)
         }
     }
     
