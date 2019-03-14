@@ -26,10 +26,10 @@ class TimeTableTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         let timeTable = TimeTable()
         
-        for i in 0 ..< 10 {
-            for j in 0 ..< 10 {
-                let c = timeTable.multiply(i, b: j)
-                XCTAssert(c == i * j)
+        for col in 0 ..< 10 {
+            for row in 0 ..< 10 {
+                let answer = timeTable.multiply(col, b: row)
+                XCTAssert(answer == col * row)
             }
         }
     }
