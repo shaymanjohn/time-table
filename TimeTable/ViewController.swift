@@ -11,9 +11,7 @@ import UIKit
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
 
     @IBOutlet weak var pickerView1: UIPickerView!
-
     @IBOutlet weak var pickerView2: UIPickerView!
-
     @IBOutlet weak var labelResult: UILabel!
 
     var timeTable: TimeTable!
@@ -26,11 +24,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         pickerView2.selectRow(4, inComponent: 0, animated: false)
         labelResult.text = "16"
         timeTable = TimeTable()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
