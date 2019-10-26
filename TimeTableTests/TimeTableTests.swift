@@ -34,14 +34,14 @@ class TimeTableTests: XCTestCase {
         }
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        let timeTable = TimeTable()
-
-        self.measure {
-            // Put the code you want to measure the time of here.
-            _ = timeTable.multiply(20000, val2: 20000)
-        }
-    }
+//    func testPerformanceExample() {
+//        // This is an example of a performance test case.
+//        let timeTable = TimeTable()
+//
+//        self.measure {
+//            // Put the code you want to measure the time of here.
+//            _ = timeTable.multiply(20000, val2: 20000)
+//        }
+//    }
 
 }
